@@ -1,0 +1,35 @@
+.bg-blue{
+    background-color: #073b4c;
+    ;
+}
+.top-part-space{
+    padding:2% 5%;
+}
+.nav-radius{
+    padding:1rem;
+}
+.slogan{
+    font-family:"Ubuntu";
+    font-size:2rem;
+    line-height: 1.5;
+    margin-bottom: 10%;
+    margin-left: 3;
+}
+/* if screan size is less than 768 px then do not rotate, if sren size is more than
+768 px then rotate, it means 768px or more
+*/
+@media(min-width:768px){
+.image{
+    transform: rotate(25deg);
+    margin-top: 15%;
+
+}
+}
+@media (max-width:767px) {
+    .image{
+        transform: rotate(0deg);
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+}
